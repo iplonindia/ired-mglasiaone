@@ -51,9 +51,9 @@ service:
 resources:
   limits:
     cpu: 1600m
-    memory: 4000Mi
+    memory: 3000Mi
   requests:
-    cpu: 1000m
+    cpu: 800m
     memory: 2000Mi
 
 nodered_mount:
