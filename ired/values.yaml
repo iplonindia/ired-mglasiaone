@@ -65,7 +65,7 @@ nodeflow_storage:
   pvname: ired-mglasiaone-pv
   pvcname: ired-mglasiaone-pvc
   size: 10Gi
-  mountpath: /mnt/nfsdisk/ired/
+  mountpath: /mnt/nfsdisk/ired-mglasiaone
   nfsserver: nfs-external-apps.asia-south1-a.c.iplon-india.internal
   accessModes: ReadWriteMany
   storageClassName: premium-rwx
