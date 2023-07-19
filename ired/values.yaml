@@ -62,8 +62,8 @@ nodered_mount:
    subpath: ""
 
 nodeflow_storage:
-  pvname: ired-mglasiaone-pv
-  pvcname: ired-mglasiaone-pvc
+  pvname: nfs-mglasia1-ired
+  pvcname: nfs-mglasia1-ired
   size: 10Gi
   mountpath: /mnt/nfsdisk/ired-mglasiaone
   nfsserver: nfs-external-apps.asia-south1-a.c.iplon-india.internal
